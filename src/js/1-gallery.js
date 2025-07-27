@@ -69,8 +69,8 @@ const galleryMarkup = images.map(({ preview, original, description }) => {
 galleryContainer.innerHTML = galleryMarkup;
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt',      // опис з alt
-  captionDelay: 250,        // затримка
-  captionPosition: 'bottom' // позиція
+  captionsData: 'alt',
+  captionDelay: 250,
+  captionPosition: 'bottom'
 });
 
